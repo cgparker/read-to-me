@@ -1,0 +1,15 @@
+{
+  "name": "read-to-me-cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "md2audio": "./md2audio.mjs"
+  },
+  "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
+    "@huggingface/transformers": "^3.5.1",
+    "kokoro-js": "^1.2.1",
+    "marked": "^15.0.12"
+  }
+}
